@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(240, 234, 234, 0.566);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+section{
+    background-color: white;
+    height: 45vh;
+    width: 40em;
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 20em;
+    height: 100%;
+     display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+    border-radius: 30px;
+}
+
+.marks{
+    color: rgb(220, 202, 202);
+    padding-top: 1em;
+    font-weight: 500;
+}
+
+.get-marks{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 10em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+   
+}
+
+.get-marks h1{
+    color: white;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.get-marks h3{
+    color:gray;
+
+}
+
+.remarks{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.result p{
+    color: rgb(155, 143, 143);
+    padding: 0 2.2em;
+    margin-bottom: 1.4em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.summary{
+    background-color: white;
+    width: 20em;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+}
+
+.summ{
+    width: 10em;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5em;
+}
+
+.reaction{
+    background-color: hsl(0, 45%, 94%);
+    color: hsl(0, 28%, 58%);
+    font-size: 12px;
+    width: 20em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9em;
+    border-radius: 10px;
+    
+}
+.react{
+    margin-right: 5em;  
+    font-size: 0.8em
+
+}
+
+.memory{
+    background-color: hwb(57 8% 13% / 0.301);
+    color: hwb(57 8% 13% / 0.934);
+    font-size: 12px;
+    width: 20em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9em;
+    border-radius: 10px;
+    
+}
+
+ .memo{  
+  margin-right: 5em;  
+  font-size: 0.8em
+} 
+
+.verbal{
+    background-color: hsl(167, 66%, 92%);
+    color: hsl(167, 80%, 70%);
+    font-size: 12px;
+    width: 20em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9em;
+    border-radius: 10px;
+}
+
+.verb{
+    margin-right: 5.8em;  
+    font-size: 0.8em
+
+}
+
+.visual{
+    background-color:hsl(233, 86%, 95%);
+    color: hsl(232, 83%, 68%);
+    font-size: 12px;
+    width: 20em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9em;
+    border-radius: 10px;
+}
+
+.vish{
+    margin-right: 6em;  
+    font-size: 0.8em
+
+}
+
+.black{
+    color: rgba(0, 0, 0, 0.763);
+}
+
+.gray{
+    color: gray;
+}
+
+button{
+    background-color:  hsl(224, 30%, 27%);
+    color: white;
+    width: 15em;
+    padding: 1.2em 0;
+    margin-bottom: 2em;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
